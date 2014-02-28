@@ -28,10 +28,6 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
-<!-- REMOVE THIS ON PRODUCTION!!! -->
-	<link rel="stylesheet/less" type="text/css" href="<?php echo get_template_directory_uri(); ?>/less/style.less?ver=<?php echo time('c'); ?>" />
-	<script src="<?php echo get_template_directory_uri(); ?>/less/less-1.6.1.min.js" type="text/javascript"></script>
-	<!-- DEVELOPMENT STUFF -->
 </head>
 <body <?php body_class(); ?>>
 	<div id="wrapper">
