@@ -1,0 +1,152 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pisces v1.0\n"
+"POT-Creation-Date: 2014-03-01 01:04+0200\n"
+"PO-Revision-Date: 2014-03-01 01:04+0200\n"
+"Last-Translator: \n"
+"Language-Team: wplovin <hello@wplovin.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__;_nx;_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: comments.php:23
+#, php-format
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: comments.php:40
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:41
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:46
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:59
+msgid "Comments are disabled."
+msgstr ""
+
+#: content.php:25 content.php:36
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#: content.php:46
+msgid "Continue reading &rarr;"
+msgstr ""
+
+#: content.php:51
+msgid "Continue reading: "
+msgstr ""
+
+#: footer.php:23
+#, php-format
+msgid "This website is powered by %s and %s"
+msgstr ""
+
+#: functions.php:56
+msgid "Navigation Menu"
+msgstr ""
+
+#: functions.php:76
+msgid "Main Widget Area"
+msgstr ""
+
+#: functions.php:78
+msgid "Main sidebar."
+msgstr ""
+
+#: functions.php:86
+msgid "Footer Widget Area"
+msgstr ""
+
+#: functions.php:88
+msgid "Main footer."
+msgstr ""
+
+#: functions.php:138 functions.php:143
+msgid ", "
+msgstr ""
+
+#: functions.php:162
+#, php-format
+msgid "%1$s on %2$s"
+msgstr ""
+
+#: functions.php:168
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: functions.php:198
+msgid "<i class=\"fa fa-angle-right\"></i>"
+msgstr ""
+
+#: functions.php:202
+msgid "<i class=\"fa fa-angle-left\"></i>"
+msgstr ""
+
+#: functions.php:226
+#, php-format
+msgid "Daily archives: %s"
+msgstr ""
+
+#: functions.php:228
+#, php-format
+msgid "Monthly archives: %s"
+msgstr ""
+
+#: functions.php:228
+msgid "F Y"
+msgstr ""
+
+#: functions.php:230
+#, php-format
+msgid "Yearly archives: %s"
+msgstr ""
+
+#: functions.php:230
+msgid "Y"
+msgstr ""
+
+#: functions.php:232
+#, php-format
+msgid "Category archives: %s"
+msgstr ""
+
+#: functions.php:234
+#, php-format
+msgid "Tag archives: %s"
+msgstr ""
+
+#: functions.php:236
+#, php-format
+msgid "Search results: %s"
+msgstr ""
+
+#: functions.php:238
+msgid "Archives"
+msgstr ""
+
+#: functions.php:267
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: functions.php:381
+msgid "on"
+msgstr ""
+
+#: header.php:52
+msgid "Menu doesn't exist. Create a new one."
+msgstr ""
