@@ -406,4 +406,8 @@ function wplovin_fonts_url() {
  *
  * Add some codes below this line to tweak it further, and don't forget to report the bugs to hello@wplovin.com, thanks!
  *
+ * CAUTION: all the changes you do to this file, will be lost upon theme update. 
+ * I would highly recommend making changes only in a child theme.
+ * http://codex.wordpress.org/Child_Themes
+ *
  */

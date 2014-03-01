@@ -1393,27 +1393,27 @@ footer#footer-main #credits i {
   color: #e74c3c;
   margin-left: 0.7em;
 }
-footer#footer-main #credits #menu-social {
+footer#footer-main #credits .social-menu {
   position: absolute;
   top: 0;
   right: 30px;
   padding: 0;
   list-style-type: none;
 }
-footer#footer-main #credits #menu-social li {
+footer#footer-main #credits .social-menu li {
   float: left;
   margin-left: 15px;
   text-transform: uppercase;
 }
-footer#footer-main #credits #menu-social li a {
+footer#footer-main #credits .social-menu li a {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, serif;
   color: #999999;
   vertical-align: middle;
 }
-footer#footer-main #credits #menu-social li a:hover {
+footer#footer-main #credits .social-menu li a:hover {
   color: #f7f9fe;
 }
-footer#footer-main #credits #menu-social li a::before {
+footer#footer-main #credits .social-menu li a::before {
   content: "\f045";
   padding: 0 5px;
   vertical-align: middle;
@@ -1425,34 +1425,34 @@ footer#footer-main #credits #menu-social li a::before {
   font-size: 1.5em;
   -webkit-font-smoothing: antialiased;
 }
-footer#footer-main #credits #menu-social li a[href*="facebook"]::before {
+footer#footer-main #credits .social-menu li a[href*="facebook"]::before {
   content: "\f082";
 }
-footer#footer-main #credits #menu-social li a[href*="github"]::before {
+footer#footer-main #credits .social-menu li a[href*="github"]::before {
   content: "\f092";
 }
-footer#footer-main #credits #menu-social li a[href*="flickr"]::before {
+footer#footer-main #credits .social-menu li a[href*="flickr"]::before {
   content: "\f16e";
 }
-footer#footer-main #credits #menu-social li a[href*="google"]::before {
+footer#footer-main #credits .social-menu li a[href*="google"]::before {
   content: "\f0d4";
 }
-footer#footer-main #credits #menu-social li a[href*="linkedin"]::before {
+footer#footer-main #credits .social-menu li a[href*="linkedin"]::before {
   content: "\f08c";
 }
-footer#footer-main #credits #menu-social li a[href*="pinterest"]::before {
+footer#footer-main #credits .social-menu li a[href*="pinterest"]::before {
   content: "\f0d3";
 }
-footer#footer-main #credits #menu-social li a[href*="tumblr"]::before {
+footer#footer-main #credits .social-menu li a[href*="tumblr"]::before {
   content: "\f174";
 }
-footer#footer-main #credits #menu-social li a[href*="twitter"]::before {
+footer#footer-main #credits .social-menu li a[href*="twitter"]::before {
   content: "\f081";
 }
-footer#footer-main #credits #menu-social li a[href*="vimeo"]::before {
+footer#footer-main #credits .social-menu li a[href*="vimeo"]::before {
   content: "\f194";
 }
-footer#footer-main #credits #menu-social li a[href*="youtube"]::before {
+footer#footer-main #credits .social-menu li a[href*="youtube"]::before {
   content: "\f16a";
 }
 /**
@@ -1556,13 +1556,14 @@ footer#footer-main #credits #menu-social li a[href*="youtube"]::before {
   #main-search-form {
     margin: 15px 5%;
   }
+  #content-main.single-entry.template-fullwidth article {width: 100%;}
 }
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {
-  footer#footer-main #credits #menu-social {
+  footer#footer-main #credits .social-menu {
     position: static;
   }
-  footer#footer-main #credits #menu-social li {
+  footer#footer-main #credits .social-menu li {
     margin-left: 0;
     margin-right: 15px;
     font-size: 1em;

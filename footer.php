@@ -22,7 +22,7 @@
 				<?php if ( has_nav_menu( 'social' ) ) {
 					$menu_args = array(
 						'theme_location' => 'social',
-						'menu_class'     => 'nav-menu full-padding cf',
+						'menu_class'     => 'social-menu full-padding cf',
 						'container'      => 'none',
 						'depth'          => 1
 					);  

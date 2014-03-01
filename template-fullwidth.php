@@ -4,7 +4,7 @@ Template Name: Fullwidth page template
 */
 
 /**
- * Single page template.
+ * Fullwidth page template.
  *
  * @package WordPress
  * @subpackage Pisces
@@ -15,7 +15,7 @@ Template Name: Fullwidth page template
 	<section id="content-main" class="half-padding-h single-entry template-fullwidth">
 	
 		<?php if( have_posts() ) : while( have_posts() ) : the_post(); ?>
-			<?php get_template_part( 'content', 'none' ); ?>
+			<?php get_template_part( 'content' ); ?>
 		<?php endwhile; endif; ?>
 		
 		<?php comments_template(); ?>
