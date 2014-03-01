@@ -2,6 +2,7 @@ jQuery(function(){
 
 	if(typeof wplovin_background_url != 'undefined') {
 		jQuery.backstretch(wplovin_background_url);
+		jQuery('.backstretch').hide();
 	}
 
     jQuery('.post').fitVids();
@@ -34,4 +35,5 @@ jQuery(function(){
 window.onload = function () { 
 	var contentContainer = jQuery('.archive-list');
 	contentContainer.masonry();
+	jQuery('.backstretch').fadeTo(300, 1);
 }
