@@ -395,9 +395,8 @@ ins {
   text-decoration: none;
 }
 hr {
-  background: url(http://wplovin.pisces/wp-content/themes/pisces/less/images/dotted-line.png) repeat center top;
-  background-size: 4px 4px;
-  border: 0;
+  border: none;
+  border-bottom: 1px dashed #c0bfbb;
   height: 1px;
   margin: 0 0 24px;
 }
