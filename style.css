@@ -3,7 +3,7 @@ Theme Name: Pisces
 Theme URI: http://wplovin.com/pisces
 Author: wplovin
 Author URI: http://wplovin.com/
-Description: Pisces is a minimal, black & white (with some shades of gray!) sharp magazine-style theme - express your thoughts in style! Responsive version + extra styles for post formats planned for 1.01; Pisces also incorporate smart custom background setting, which you will definately love <3 wplovin.com 2/12.
+Description: Pisces is a minimal, black & white (with some shades of gray!) sharp magazine-style theme - express your thoughts in style. Pisces incorporates smart custom background images (images less than 960px will be used as a pattern, while images above 960px resolution will be displayed fullscreen) and social footer links (just add your social links to 'Social links' menu and it's done!). Furthermore, Pisces is responsive! Extra styles for post formats planned for 1.01; wplovin.com 2/12.
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -32,7 +32,11 @@ Spread the word, wplovin.com
  * 13 - WordPress classes
  * 14 - Responsive - needs testing. Excluded until 1.01 release.
  */
-
+/**
+ * ---------------------
+ * 1 - Normalize
+ * ---------------------
+ */
 /**
  * ---------------------
  * 1 - Fontfix
@@ -521,6 +525,10 @@ h6 {
 }
 p {
   margin: 0 0 30px;
+}
+a,
+a:visited {
+  color: #bf2718;
 }
 a:hover {
   color: #e74c3c;
@@ -1379,10 +1387,73 @@ footer#footer-main #credits {
   color: #999999;
   text-align: left;
   padding: 15px 30px;
+  position: relative;
 }
 footer#footer-main #credits i {
   color: #e74c3c;
   margin-left: 0.7em;
+}
+footer#footer-main #credits #menu-social {
+  position: absolute;
+  top: 0;
+  right: 30px;
+  padding: 0;
+  list-style-type: none;
+}
+footer#footer-main #credits #menu-social li {
+  float: left;
+  margin-left: 15px;
+  text-transform: uppercase;
+}
+footer#footer-main #credits #menu-social li a {
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, serif;
+  color: #999999;
+  vertical-align: middle;
+}
+footer#footer-main #credits #menu-social li a:hover {
+  color: #f7f9fe;
+}
+footer#footer-main #credits #menu-social li a::before {
+  content: "\f045";
+  padding: 0 5px;
+  vertical-align: middle;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  font-size: 1.5em;
+  -webkit-font-smoothing: antialiased;
+}
+footer#footer-main #credits #menu-social li a[href*="facebook"]::before {
+  content: "\f082";
+}
+footer#footer-main #credits #menu-social li a[href*="github"]::before {
+  content: "\f092";
+}
+footer#footer-main #credits #menu-social li a[href*="flickr"]::before {
+  content: "\f16e";
+}
+footer#footer-main #credits #menu-social li a[href*="google"]::before {
+  content: "\f0d4";
+}
+footer#footer-main #credits #menu-social li a[href*="linkedin"]::before {
+  content: "\f08c";
+}
+footer#footer-main #credits #menu-social li a[href*="pinterest"]::before {
+  content: "\f0d3";
+}
+footer#footer-main #credits #menu-social li a[href*="tumblr"]::before {
+  content: "\f174";
+}
+footer#footer-main #credits #menu-social li a[href*="twitter"]::before {
+  content: "\f081";
+}
+footer#footer-main #credits #menu-social li a[href*="vimeo"]::before {
+  content: "\f194";
+}
+footer#footer-main #credits #menu-social li a[href*="youtube"]::before {
+  content: "\f16a";
 }
 /**
  * ---------------------
@@ -1422,3 +1493,90 @@ footer#footer-main #credits i {
  * 14 - Responsive - needs testing. Excluded until 1.01 release.
  * ---------------------
  */
+@-ms-viewport {
+  width: device-width;
+}
+@viewport {
+  width: device-width;
+}
+/* Smaller than standard 1190 (devices and browsers) */
+@media only screen and (max-width: 1190px) {
+  .inside {
+    width: 100%;
+  }
+  #header-main a {
+    font-size: 5em;
+  }
+  #wrapper {
+    width: 100%;
+  }
+  #navigation-main ul {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 14px;
+  }
+  #navigation-main ul > li {
+    margin-bottom: 1px;
+  }
+  #content-main {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #content-main article {
+    width: 90%;
+    margin-left: 0;
+    margin-right: 5%;
+  }
+  footer#footer-main {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  footer#footer-main #sidebar-footer .widget {
+    width: 100%;
+    padding: 5%;
+  }
+  #search-box-trigger {
+    right: 5%;
+  }
+  #content-main.single-entry .single-wrapper {
+    width: 100%;
+  }
+  #content-main.single-entry article {
+    width: 100%;
+  }
+  #comments,
+  #sidebar-main {
+    width: 100%;
+    margin: 0;
+  }
+  #sidebar-main {
+    margin-top: 30px;
+  }
+  #main-search-form {
+    margin: 15px 5%;
+  }
+}
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+  footer#footer-main #credits #menu-social {
+    position: static;
+  }
+  footer#footer-main #credits #menu-social li {
+    margin-left: 0;
+    margin-right: 15px;
+    font-size: 1em;
+  }
+}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+  #header-main a {
+    font-size: 3em;
+  }
+}
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+  #header-main a {
+    font-size: 2em;
+  }
+}

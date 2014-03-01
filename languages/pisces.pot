@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pisces v1.0\n"
-"POT-Creation-Date: 2014-03-01 01:04+0200\n"
-"PO-Revision-Date: 2014-03-01 01:04+0200\n"
+"POT-Creation-Date: 2014-03-01 02:39+0200\n"
+"PO-Revision-Date: 2014-03-01 02:39+0200\n"
 "Last-Translator: \n"
 "Language-Team: wplovin <hello@wplovin.com>\n"
 "Language: en_US\n"
@@ -49,7 +49,7 @@ msgstr ""
 msgid "Continue reading: "
 msgstr ""
 
-#: footer.php:23
+#: footer.php:32
 #, php-format
 msgid "This website is powered by %s and %s"
 msgstr ""
@@ -58,95 +58,99 @@ msgstr ""
 msgid "Navigation Menu"
 msgstr ""
 
-#: functions.php:76
+#: functions.php:57
+msgid "Social Links"
+msgstr ""
+
+#: functions.php:77
 msgid "Main Widget Area"
 msgstr ""
 
-#: functions.php:78
+#: functions.php:79
 msgid "Main sidebar."
 msgstr ""
 
-#: functions.php:86
+#: functions.php:87
 msgid "Footer Widget Area"
 msgstr ""
 
-#: functions.php:88
+#: functions.php:89
 msgid "Main footer."
 msgstr ""
 
-#: functions.php:138 functions.php:143
+#: functions.php:143 functions.php:148
 msgid ", "
 msgstr ""
 
-#: functions.php:162
+#: functions.php:167
 #, php-format
 msgid "%1$s on %2$s"
 msgstr ""
 
-#: functions.php:168
+#: functions.php:173
 #, php-format
 msgid "Permalink to %s"
 msgstr ""
 
-#: functions.php:198
+#: functions.php:203
 msgid "<i class=\"fa fa-angle-right\"></i>"
 msgstr ""
 
-#: functions.php:202
+#: functions.php:207
 msgid "<i class=\"fa fa-angle-left\"></i>"
 msgstr ""
 
-#: functions.php:226
+#: functions.php:231
 #, php-format
 msgid "Daily archives: %s"
 msgstr ""
 
-#: functions.php:228
+#: functions.php:233
 #, php-format
 msgid "Monthly archives: %s"
 msgstr ""
 
-#: functions.php:228
+#: functions.php:233
 msgid "F Y"
 msgstr ""
 
-#: functions.php:230
+#: functions.php:235
 #, php-format
 msgid "Yearly archives: %s"
 msgstr ""
 
-#: functions.php:230
+#: functions.php:235
 msgid "Y"
 msgstr ""
 
-#: functions.php:232
+#: functions.php:237
 #, php-format
 msgid "Category archives: %s"
 msgstr ""
 
-#: functions.php:234
+#: functions.php:239
 #, php-format
 msgid "Tag archives: %s"
 msgstr ""
 
-#: functions.php:236
+#: functions.php:241
 #, php-format
 msgid "Search results: %s"
 msgstr ""
 
-#: functions.php:238
+#: functions.php:243
 msgid "Archives"
 msgstr ""
 
-#: functions.php:267
+#: functions.php:272
 #, php-format
 msgid "Page %s"
 msgstr ""
 
-#: functions.php:381
+#: functions.php:386
 msgid "on"
 msgstr ""
 
-#: header.php:52
+#: header.php:56
 msgid "Menu doesn't exist. Create a new one."
 msgstr ""

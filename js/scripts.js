@@ -15,12 +15,19 @@ jQuery(function(){
 			jQuery('#main-search-form').slideDown().toggleClass('search-form-open');
 		}
 	});
-
 	
 	var contentContainer = jQuery('.archive-list');
+
 	contentContainer.masonry({
 		itemSelector: '.post, .page'
-	});
+	});	
+	
+	if(typeof wplovin_footer_masonry != 'undefined') {
+		var widgetsContainer = jQuery('#sidebar-footer');
+		widgetsContainer.masonry({
+			itemSelector: '.widget'
+		});
+	}
 
 });
 
