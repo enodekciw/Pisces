@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pisces v1.0\n"
-"POT-Creation-Date: 2014-03-01 02:39+0200\n"
-"PO-Revision-Date: 2014-03-01 02:39+0200\n"
+"POT-Creation-Date: 2014-03-01 03:36+0200\n"
+"PO-Revision-Date: 2014-03-01 03:36+0200\n"
 "Last-Translator: \n"
 "Language-Team: wplovin <hello@wplovin.com>\n"
 "Language: en_US\n"
@@ -12,7 +12,7 @@ msgstr ""
 "X-Generator: Poedit 1.6.3\n"
 "X-Poedit-Basepath: ../\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-KeywordsList: _e;__;_nx;_x\n"
+"X-Poedit-KeywordsList: _e;__;_x;_nx\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: comments.php:23
@@ -34,6 +34,21 @@ msgstr ""
 
 #: comments.php:59
 msgid "Comments are disabled."
+msgstr ""
+
+#: content-none.php:17
+#, php-format
+msgid "No posts published so far. <a href=\"%1$s\">Ready to speak out?</a>."
+msgstr ""
+
+#: content-none.php:19
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:22
+msgid "Ooops.. Perhaps searching can help?"
 msgstr ""
 
 #: content.php:25 content.php:36
@@ -151,6 +166,6 @@ msgstr ""
 msgid "on"
 msgstr ""
 
-#: header.php:56
+#: header.php:52
 msgid "Menu doesn't exist. Create a new one."
 msgstr ""
