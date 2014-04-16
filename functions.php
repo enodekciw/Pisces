@@ -19,7 +19,7 @@
  */
 define( 'WPLOVIN_THEME_NAME', 'Pisces' );
 define( 'WPLOVIN_THEME_SLUG', 'pisces' );
-define( 'WPLOVIN_THEME_VERSION', '1.0' );
+define( 'WPLOVIN_THEME_VERSION', '1.0.1' );
 define( 'WPLOVIN_THEME_AUTHOR', 'wplovin' );
 define( 'WPLOVIN_THEME_AUTHOR_URL', 'http://wplovin.com' );
 define( 'WPLOVIN_THEME_PATH', get_template_directory_uri() );
@@ -111,10 +111,10 @@ function wplovin_scripts_styles() {
 
 	wp_enqueue_script( WPLOVIN_THEME_SLUG .'-fitvids-js', WPLOVIN_THEME_PATH . '/js/jquery.fitvids.js', array( 'jquery' ), 'v1.0.3', true );
 	wp_enqueue_script( WPLOVIN_THEME_SLUG .'-backstretch-js', WPLOVIN_THEME_PATH . '/js/jquery.backstretch.min.js', array( 'jquery' ), 'v2.0.4', true );
-	wp_enqueue_script( 'jquery-masonry', false, array( 'jquery' ) );	
+	wp_enqueue_script( 'jquery-masonry' );	
 	
 	wp_enqueue_style( WPLOVIN_THEME_SLUG . '-style', get_stylesheet_uri(), array(), '1.0' );
-	wp_enqueue_style( WPLOVIN_THEME_SLUG . '-fa-icons', WPLOVIN_THEME_PATH . '/assets/font-awesome/css/font-awesome.min.css', array(), '4.0.3' );
+	wp_enqueue_style( WPLOVIN_THEME_SLUG . '-fa-icons', WPLOVIN_THEME_PATH . '/assets/font-awesome/css/font-awesome.min.css', array(), 'v4.0.3' );
 	wp_enqueue_style( WPLOVIN_THEME_SLUG . '-roboto', wplovin_fonts_url(), array(), null );	
 	
 	wp_enqueue_script( WPLOVIN_THEME_SLUG .'-scripts-js', WPLOVIN_THEME_PATH . '/js/scripts.js', array( 'jquery' ), 'v1.0', true );
