@@ -111,7 +111,7 @@ function wplovin_scripts_styles() {
 
 	wp_enqueue_script( WPLOVIN_THEME_SLUG .'-fitvids-js', WPLOVIN_THEME_PATH . '/js/jquery.fitvids.js', array( 'jquery' ), 'v1.0.3', true );
 	wp_enqueue_script( WPLOVIN_THEME_SLUG .'-backstretch-js', WPLOVIN_THEME_PATH . '/js/jquery.backstretch.min.js', array( 'jquery' ), 'v2.0.4', true );
-	wp_enqueue_script( WPLOVIN_THEME_SLUG .'-masonry3-js', WPLOVIN_THEME_PATH . '/js/masonry.pkgd.min.js', array( 'jquery' ), 'v3.1.4', true );	
+	wp_enqueue_script( 'jquery-masonry', false, array( 'jquery' ) );	
 	
 	wp_enqueue_style( WPLOVIN_THEME_SLUG . '-style', get_stylesheet_uri(), array(), '1.0' );
 	wp_enqueue_style( WPLOVIN_THEME_SLUG . '-fa-icons', WPLOVIN_THEME_PATH . '/assets/font-awesome/css/font-awesome.min.css', array(), '4.0.3' );
