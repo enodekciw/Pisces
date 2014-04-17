@@ -19,18 +19,10 @@
  */
 define( 'WPLOVIN_THEME_NAME', 'Pisces' );
 define( 'WPLOVIN_THEME_SLUG', 'pisces' );
-define( 'WPLOVIN_THEME_VERSION', '1.0.1' );
+define( 'WPLOVIN_THEME_VERSION', '1.0.7' );
 define( 'WPLOVIN_THEME_AUTHOR', 'wplovin' );
 define( 'WPLOVIN_THEME_AUTHOR_URL', 'http://wplovin.com' );
 define( 'WPLOVIN_THEME_PATH', get_template_directory_uri() );
-
-/**
- * Set up the content width value based on the theme's design.
- *
- * @since Pisces 1.0
- */
-if ( ! isset( $content_width ) ) 
-	$content_width = 1050;
 
 /**
  * Oh, let's add some useful stuff we'll need later.
@@ -38,6 +30,9 @@ if ( ! isset( $content_width ) )
  * @since Pisces 1.0
  */
 function wplovin_setup() {
+
+	if ( ! isset( $content_width ) ) 
+		$content_width = 1050;
 
 	load_theme_textdomain( 'pisces', get_template_directory() . '/languages' );
 	

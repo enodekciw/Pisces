@@ -25,7 +25,7 @@
 	<title><?php wp_title( '&mdash;', true, 'right' ); ?></title>
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<!--[if lt IE 9]>
-	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
+	<script src="<?php echo WPLOVIN_THEME_PATH; ?>/js/html5.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
 </head>
@@ -41,18 +41,16 @@
 		<nav id="navigation-main" role="navigation">
 		
 			<?php if ( has_nav_menu( 'primary' ) ) {
-				$menu_args = array(
-					'theme_location' => 'primary',
-					'menu_class'     => 'nav-menu full-padding cf',
-					'container'      => 'none'
-				);  
-				wp_nav_menu( $menu_args ); 
+				wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu full-padding cf', 'container' => 'none' ) ); 
 			} else { ?>
 				<ul class="nav-menu-none full-padding cf">
-					<li><a href="<?php echo admin_url( 'nav-menus.php' ); ?>"><?php _e( 'Menu doesn\'t exist. Create a new one.', 'pisces' ); ?></a></li>
+					<?php if( current_user_can( 'edit_theme_options' ) ) : ?>
+						<li><a href="<?php echo admin_url( 'nav-menus.php' ); ?>"><?php _e( 'Menu doesn\'t exist. Create a new one.', 'pisces' ); ?></a></li>
+					<?php else : ?>
+						<li><a href="<?php echo esc_url( home_url() ); ?>"><?php echo bloginfo('title'); ?></a></li>
+					<?php endif; ?>
 				</ul>
 			<?php } ?>
-			
 			<div id="main-search-form">
 				<?php echo get_search_form(); ?>
 			</div>

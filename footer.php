@@ -20,16 +20,10 @@
 	
 			<div id="credits">
 				<?php if ( has_nav_menu( 'social' ) ) {
-					$menu_args = array(
-						'theme_location' => 'social',
-						'menu_class'     => 'social-menu full-padding cf',
-						'container'      => 'none',
-						'depth'          => 1
-					);  
-					wp_nav_menu( $menu_args ); 
+					wp_nav_menu( array( 'theme_location' => 'social', 'menu_class' => 'social-menu full-padding cf', 'container'=> 'none', 'depth' => 1 ) ); 
 				} ?>
 				<span>
-				<?php printf( __( 'This website is powered by %s and %s', 'pisces' ), '<a href="http://www.wordpress.org/" title="WordPress">WordPress</a>', '<a href="http://wplovin.com/pisces/" title="Pisces WordPress theme">Pisces</a><i class="fa fa-heart"></i>' ); ?>
+				<?php printf( __( 'This website is powered by %s and %s', 'pisces' ), '<a href="http://www.wordpress.org/" title="WordPress">WordPress</a>', '<a href="http://wplovin.com/pisces/" title="Pisces theme by wplovin">Pisces</a><i class="fa fa-heart"></i>' ); ?>
 				</span>
 			</div>
 		</div>

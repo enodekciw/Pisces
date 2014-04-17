@@ -8,14 +8,17 @@ Pisces is a minimal, black & white (with some shades of gray!) sharp magazine-st
 
 == Bundled with a theme ==
 
-1. Font Awesome - http://fortawesome.github.io/Font-Awesome/
+1. Font Awesome, MIT License - http://fortawesome.github.io/Font-Awesome/
 2. jQuery fitvids.js, WTFPL License - http://fitvidsjs.com/
-3. html5shiv.js - https://github.com/aFarkas/html5shiv/
-4. jquery.backstretch.min.js - http://srobbin.com/jquery-plugins/backstretch/
-5. masonry.pkgd.min.js - http://masonry.desandro.com/
-6. Images in live preview (and bundled as a background image!) - http://unsplash.com/
+3. html5shiv.js, Dual licensed under the MIT or GPL Version 2 licenses - https://github.com/aFarkas/html5shiv/
+4. jquery.backstretch.min.js, MIT License - http://srobbin.com/jquery-plugins/backstretch/
+5. Bundled background image - http://unsplash.com - CC0 - http://unsplash.com/post/76690009572/download-by-yair-hazout
+6. Images used in live preview - http://unsplash.com/
 
 == Changelog ==
 
 = 1.0 - Feb 28, 2014 =
 * Initial release
+
+Pisces WordPress Theme, Copyright 2014 wplovin.com
+Pisces is distributed under the terms of the GNU GPL
